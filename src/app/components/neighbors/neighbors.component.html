@@ -1,0 +1,6 @@
+<section>
+  <article *ngFor="let neighbors of neighbors">
+    <span>{{neighbors.home}}</span>
+    <div class="status" [ngClass]="{paid: neighbors.paid}"></div>
+  </article>
+</section>

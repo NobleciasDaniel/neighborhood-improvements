@@ -1,0 +1,6 @@
+<article>
+  <div class="progress-bar">
+    <div *ngFor="let segment of segments; let i = index" class="segment"
+         [class.filled]="segment" [class.blink]="i === blinkIndex"></div>
+  </div>
+</article>

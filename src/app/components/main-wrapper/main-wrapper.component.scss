@@ -1,0 +1,30 @@
+main {
+  height: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  img {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+  }
+
+  .stats {
+    width: 250px;
+    height: 55px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+      font-size: 22px;
+      line-height: 22px;
+      margin: 0;
+      font-weight: bold;
+    }
+  }
+
+}
